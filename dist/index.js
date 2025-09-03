@@ -31697,6 +31697,7 @@ var __webpack_exports__ = {};
 try {
   const name = _actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput("name");
   console.log(`Hello ${name} from Custom`);
+  const output_value = `Hello ${name} from Custom`;
   _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("greeting", output_value);
 } catch (error) {
   _actions_core__WEBPACK_IMPORTED_MODULE_0__.setFailed(error.message);
